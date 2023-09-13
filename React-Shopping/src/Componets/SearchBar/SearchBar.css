@@ -1,0 +1,74 @@
+.s-wrapper{
+   /* border: 1px solid rgba(120, 120, 120, 0.774); */
+   border-bottom: 1px solid rgba(120, 120, 120, 0.774);
+   padding: 0.5rem 2rem;
+}
+.s-container{
+justify-content: space-evenly;
+flex-wrap: nowrap;
+gap:10rem;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+.s-logo img{
+        width:150px;
+        height: 80px;
+}   
+.s-logo span{
+    font-weight: bolder;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.search-box{
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(231, 0, 0, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    
+}
+.search-box>input{
+   border: none;
+   outline: none;
+}
+
+.profile-container{
+    justify-content: space-evenly;
+    gap: 3rem;
+    z-index: 88;
+}
+.profile-container>span{
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.profile-container .nav-icons:hover{
+   color: black;
+    
+}
+
+
+.profile-container span:nth-child(2){
+    padding: 2px 2px;
+    font-weight: lighter;
+    border-radius: 5px;
+    position: relative;
+    /* top: -1px; */
+    color: rgb(255, 166, 1);
+}
+
+.profile-container>a{
+    font-size: 2rem;
+    color:#fbab60 ;
+    
+}
+
+
+@media (max-width:420px){
+    .search-box{
+        padding:0.2rem;
+        }
+        
+}

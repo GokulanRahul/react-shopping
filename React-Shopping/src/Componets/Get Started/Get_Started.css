@@ -1,0 +1,228 @@
+.head{
+    border-bottom: 1px solid rgba(12, 56, 56, 0.2); 
+    padding-bottom: 0.5rem;
+    
+}
+.g-container{
+    align-items: center;
+}
+.left{
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.left-cnt{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(12, 56, 56, 0.1);
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    background: var(--shadow);
+}
+.cnt{
+  flex-wrap: nowrap;
+  flex-direction: column;
+  display: flex;
+  row-gap: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+    
+}
+.about{
+        padding: 0rem 1.5rem;
+}
+ .pic-container img{
+    border-radius: 10rem;
+    width: 100px;
+}
+.pic-container{
+    margin-bottom: 2rem;
+}
+
+/* --------------------------------------------- center----------------- */
+.center{
+    /* flex-shrink: ;
+    flex-grow: ; */
+    position: relative;
+}
+.immg img{
+    border-radius: 20px;
+    width: 100%;
+}
+.cnnt{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flex;
+    row-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: max-content;
+    padding: 1rem 3rem;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    border-radius: 10px;
+    background-color: rgba(240, 240, 240, 0.8);
+}
+.txt1{
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.cnnt .summer{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align:center;
+}
+.cnnt button{
+    border: none;
+    color: black;
+    font-weight: bolder;
+    border-color: black;
+}
+
+/* --------------------------------------- */
+.right-cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.4rem 1.1rem;
+    border: 1px solid rgba(12, 56, 56, 0.1);
+    border-radius: 10px;
+    margin-top: 2rem;
+
+}
+.right{
+    /* border: 1px solid; */
+    justify-content: space-evenly;
+    margin: 1.5rem;
+    border-radius: 10px;
+}
+.cnt- > :nth-child(1){
+    color: red;
+    
+}
+.cnt- > :nth-child(1) i{
+    color: rgba(234, 92, 92,0.8);
+    font-size: 2rem;
+}
+.cnt- span{
+    padding: 0rem 1.5rem;
+}
+.cnt-{
+    padding: 0.5rem;
+} 
+.cnt- > :nth-child(1) i:hover{
+    color: rgba(35, 34, 34);
+}
+
+
+
+/* ---------------------------------------------------------- */
+ /* @media (max-width:420px) {
+   
+    .cnnt{
+    row-gap: 0.2rem;
+    padding: 1rem;
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    
+    }
+    .cnnt .summer{
+        font-size: 1rem;
+    }
+    .txt1{
+        font-size: 0.5rem;
+    }
+    .cnnt Button{
+       font-size: 0.6rem;
+       margin-top: 5px;
+    }
+}  */
+
+
+
+/* @media (365px <= width <= 640px) {
+    .cnnt{
+        row-gap: 0.2rem;
+        padding: 1rem;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        
+        }
+        .cnnt .summer{
+            font-size: 2rem;
+        }
+        .txt1{
+            font-size: 0.5rem;
+        }
+        .cnnt Button{
+           font-size: 0.7rem;
+           margin-top: 5px;
+        }
+} */
+
+
+@media (max-width:425px) {
+    .cnnt{
+        row-gap: 0.2rem;
+        padding: 1rem;
+        position: absolute;
+        top: 12%;
+        left: 29%;
+        
+        }
+        .cnnt .summer{
+            font-size: 1rem;
+        }
+        .txt1{
+            font-size: 0.5rem;
+        }
+        .cnnt Button{
+           font-size: 0.7rem;
+           margin-top: 5px;
+        }
+        .immg img{
+            width: 100%;
+        }
+        .center{
+            margin: 10px;
+        }
+
+    }
+    @media (min-width:425px)  and (max-width:765px){
+        .cnnt{
+            row-gap: 0.2rem;
+            padding: 1rem;
+            position: absolute;
+            top: 12%;
+            left: 30%;
+            
+            }
+            .cnnt .summer{
+                font-size: 2rem;
+            }
+            .txt1{
+                font-size: 0.5rem;
+            }
+            .cnnt Button{
+               font-size: 0.7rem;
+               margin-top: 5px;
+            }
+            .center{
+                margin: 10px;
+            }
+
+        }

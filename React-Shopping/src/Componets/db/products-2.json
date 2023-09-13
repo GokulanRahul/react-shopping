@@ -1,0 +1,129 @@
+[
+    {
+        "id": 7,
+        "availableSizes": ["XS","S","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1079,
+        "isFreeShipping": true,
+        "style": "Madact",
+        "icon": "pics/r8.jpg",
+        "amount":1
+
+    },
+    {
+        "id": 8,
+        "availableSizes": ["X", "L", "XXL"],
+        "currencyFormat": "Rs",
+        "price": 1099,
+        "isFreeShipping": true,
+        "style": "Cut Off",
+        "icon": "pics/r9.jpg",
+        "amount":1
+
+    },
+    {
+        "id": 9,
+        "availableSizes": ["XS","S","M","L","XL"],
+        "currencyFormat": "Rs",
+        "price": 1039,
+        "isFreeShipping": true,
+        "style": "Casual Tracks",
+        "icon": "pics/r10.jpg",
+        "amount":1
+
+    },
+    {
+        "id": 10,
+        "availableSizes": ["X", "L", "XL", "XXL"],
+        "currencyFormat": "Rs",
+        "price": 859,
+        "isFreeShipping": true,
+        "style": "Tokyo Talkie",
+        "icon": "pics/r11.jpg",
+        "amount":1
+
+    },
+    {
+        "id": 11,
+        "availableSizes": ["S","M","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1079,
+        "isFreeShipping": true,
+        "style": "HotSpot",
+        "icon": "pics/VeBNoR.jpg",
+        "amount":1
+
+    },
+    {
+        "id": 3,
+        "availableSizes": ["XS" ,"M","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1500,
+        "isFreeShipping": true,
+        "style": "Alan Jones",
+        "icon": "pics/r1.jpeg",
+        "amount":1
+        
+    },
+   
+   
+    {
+        "id": 1,
+        "availableSizes": ["XS","S","M","L","XL"],
+        "currencyFormat": "Rs",
+        "price": 1019,
+        "isFreeShipping": true,
+        "style": "Nike",
+        "icon": "pics/r4.png",
+        "amount":1
+
+    },
+    {
+        "id": 0,
+        "availableSizes": ["S","M","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 999,
+        "isFreeShipping": true,
+        "style": "Allen Smart",
+        "icon": "pics/r5.png",
+        "amount":1
+
+    },
+    {
+        "id": 5,
+        "availableSizes": ["XS","S","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1013,
+        "isFreeShipping": true,
+        "style": "Puma",
+        "icon": "pics/r6.png",
+        "amount":1
+
+    },
+    {
+        "id": 6,
+        "availableSizes": ["M","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1369,
+        "isFreeShipping": true,
+        "style": "VebNor-X",
+        "icon": "pics/r7.jpg",
+        "amount":1
+
+    },
+  
+    {
+        "id": 2,
+        "availableSizes": ["S","M","L","XL","XXL"],
+        "currencyFormat": "Rs",
+        "price": 1079,
+        "isFreeShipping": true,
+        "style": "Jugular",
+        "icon": "pics/r3.jpeg",
+        "amount":1
+
+    }
+  
+   
+]
+

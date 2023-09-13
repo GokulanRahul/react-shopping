@@ -1,0 +1,62 @@
+.r-card {
+    justify-content: space-evenly;
+    background: var(--shadow);
+    position: relative;
+}
+
+.r-card>img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 0.6rem;
+}
+
+.r-price:nth-child(1) {
+    font-weight: 500px;
+    font-size: 5rem;
+}
+
+.titl {
+    margin-bottom: 1.6rem;
+}
+
+.titl-1 {
+    position: absolute;
+    top: 5.5%;
+    right: 8%;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: black;
+    padding: 1px 1px;
+    font-weight: 400px;
+}
+
+.c-icon {
+    font-size: 3rem;
+    color: rgb(76, 124, 124);
+    position: absolute;
+    bottom: 19px;
+    right: 25px;
+    cursor: pointer;
+}
+
+@media (max-width:640px) {
+    .r-card>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .titl-1 {
+        font-size: 0.7rem;
+        top: 6.5%;
+        right: 12%;
+    }
+}
+@media (417px <= width <= 780px) {
+    .r-card{
+        margin-left: 5rem;
+        
+    }
+  }
+ 
+  

@@ -1,0 +1,138 @@
+.h-head {
+    padding: 0rem 5rem;
+    position: relative;
+    z-index: 1;
+}
+.h-container{
+    z-index: 1;
+}
+
+.content {
+
+    position: absolute;
+    bottom: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(255,69,0,0.45);
+}
+.content h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 550px;
+    color: rgb(169,154,134);
+    letter-spacing: 6px;
+}
+.content button{
+    font-weight: 500;
+    background: rgb(255,69,0,0.45);
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem 1.4rem;
+    color: white;
+}
+.content button:hover{
+    background-color: black;
+}
+
+
+
+
+@media (max-width:1306px){
+    .h-head {
+        padding: 0rem 2rem;
+    
+    }
+    .content{
+        position: absolute;
+        bottom: 5rem;
+        left: -5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+ @media (max-width:881px){
+    .content{
+        position: absolute;
+        bottom: 0rem;
+        left: -2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .content h3{
+        font-size: 0.5rem;
+        
+    }
+    .content h1{
+        font-size: 1rem;
+    }
+    .content p{
+        font-size: 1rem;
+        
+        letter-spacing: 1px;
+    }
+    .h-head {
+        padding: 0px 1px;
+        
+    
+    }
+    .content button{
+        font-weight: 500;
+        background: rgb(255,69,0,0.45);
+        border: none;
+        border-radius: 5px;
+        padding: 0.1rem 0.2rem;
+        color: white;
+    }
+}
+@media (max-width: 440px){
+    .content{
+        bottom: 0rem;
+        left: -1rem;
+        
+    }
+    .content h3{
+        font-size: 0.3rem;
+        
+    }
+    .content h1{
+        font-size: 0.5rem;
+    }
+    .content p{
+        font-size: 0.5rem;
+        
+        letter-spacing: 1px;
+    }
+    
+    .h-head {
+        padding: 0px;
+        
+    
+    }
+    .content button{
+        font-weight: 500;
+        background: rgb(255,69,0,0.45);
+        border: none;
+        border-radius: 5px;
+        padding: 0.1rem;
+        color: white;
+        font-size: 0.5rem;
+    }
+    .content p .bol{
+        font-size: 1px;
+    }
+} 
+
+
+
