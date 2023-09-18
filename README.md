@@ -22,4 +22,4 @@ npm run dev
 ```
 
 ## Live Demo
-<p>Check out the live demo of the React application <a href=https://react-e-shopping.pages.dev/ target="_blank">Here</a>.</p>
+<p>Check out the live demo of the React application <a href=https://react-e-shopping.pages.dev/ target=_blank >Here</a>.</p>
